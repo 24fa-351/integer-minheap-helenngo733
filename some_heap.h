@@ -1,11 +1,11 @@
 
-#ifndef HEAP_H
-#define HEAP_H
+#ifndef SOME_HEAP_H
+#define SOME_HEAP_H
 
 // a min heap
 
 typedef unsigned long long heap_key_t;
-typedef void* heap_value_t;
+typedef void *heap_value_t;
 #define HEAP_KEY_FORMAT "%llu"
 
 typedef struct {
